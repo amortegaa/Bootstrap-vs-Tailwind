@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"/>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"/>
+
+    <!--CSS-->
+    <link href="/bootstrap.css" type="text/css" rel="stylesheet" />
+
+    <title>Inicio Sesión - Bootstrap CSS</title>
+    
+  </head>
+  <body
+    class="bg-light px-4 d-flex min-vh-100 justify-content-start align-items-center flex-column py-4">
+    <img class="img-responsive" src="Universidad_de_Lima_logo.png" />
+    <div class="my-3 text-sm-4xl text-xl text-center">
+      <h1 class="">
+        <span class="text-sm-4xl font-weight-bold">Plataforma 1 - Bootstrap</span>
+      </h1>
+      <h2 class="text-4xl">
+        Aplicación de <span class="font-weight-bold text-indigo-700">Bootstrap 5</span> VS
+        <span class="font-weight-bold text-teal-600">Tailwind</span>
+      </h2>
+    </div>
+    <div class="card mx-auto form-width px-sm-5">
+      <div class="card-body">
+        <h3
+          class="card-title pt-sm-5 pt-3 pb-sm-4 pb-2 text-lg font-weight-bold">
+          Iniciar Sesión
+        </h3>
+        <form>
+          <div class="mb-3">
+            <div class="d-flex justify-content-between align-items-center">
+              <label for="emailOrId" class="form-label font-weight-bold">
+                Email o Codigo Ulima </label>
+              <span class="text-primary font-weight-bold">
+                ¿Necesita Ayuda?
+              </span>
+            </div>
+            <input
+              type="Enter your email address or phone number"
+              class="form-control form-control-sm-lg"
+              id="emailOrPhone"/>
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label font-weight-bold">
+              Contraseña</label>
+            <input
+              type="password"
+              class="form-control form-control-sm-lg"
+              id="password"/>
+          </div>
+          <button
+            type="submit"
+            class="btn btn-primary btn-sm-lg btn-block text-white bg-primary border-primary text-normal font-weight-bold">
+            Continuar
+          </button>
+          <div class="mt-3">
+            <p class="text-sm form-text">
+              Al continuar, acepta nuestras 
+              <strong>Condiciones de Uso</strong> y
+              <strong>Aviso de Privacidad</strong>
+            </p>
+          </div>
+
+          <div class="mt-sm-5 mt-4">
+            <p class="mb-2 mt-0 font-weight-bold">¿No es alumno?</p>
+            <button
+              type="submit"
+              class="btn btn-primary btn-sm-lg btn-block text-secondary bg-white border-none seconary-btn-shadow text-normal font-weight-bold">
+              <a href="https://admision.ulima.edu.pe/" class="text-decoration-none text-black">Registrate aquí</a>
+            </button>
+          </div>
+        </form>
+      </div>
+      <div
+        class="card-footer bg-transparent -mx-sm-5 mt-sm-4 mt-2 py-sm-5 py-4">
+        <div
+          class="d-flex justify-content-sm-around justify-content-between px-sm-5 px-2">
+          <a
+            href="#"
+            class="text-decoration-none text-semi-primary font-weight-bold small"> Condiciones de Uso</a>
+          <a
+            href="#"
+            class="text-decoration-none text-semi-primary font-weight-bold small"> Aviso de Privacidad</a>
+          <a
+            href="#"
+            class="text-decoration-none text-semi-primary font-weight-bold small"> Ayuda</a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="mt-3 mt-sm-4">
+      <p class="text-secondary text-center text-sm-left">
+        <a href="https://www.ulima.edu.pe/" class="text-decoration-none">Universidad de Lima - 2021</a> - Programación Web
+      </p>
+    </footer>
+  </body>
+</html>

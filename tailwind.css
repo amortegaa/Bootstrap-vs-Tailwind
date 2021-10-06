@@ -1,0 +1,28 @@
+body,
+      input {
+        font-family: "Lato", sans-serif;
+      }
+
+      .form-width {
+        max-width: 630px !important;
+      }
+      .text-orange-primary {
+        color: #F37021 !important;
+      }
+
+      .border-orange-primary {
+        border-color: #F37021 !important;
+      }
+
+      .bg-orange-primary {
+        background-color: #F37021 !important;
+      }
+
+      .text-red-secondary {
+        color: #d93025 !important;
+      }
+
+      .text-blue {
+        color: #4c51bf;
+      }
+

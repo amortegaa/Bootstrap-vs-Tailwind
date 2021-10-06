@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"/>
+
+    <!--Tailwind CSS-->
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"/>
+
+    <!--CSS-->
+    <link href="/tailwind.css" type="text/css" rel="stylesheet" />
+
+    <title>Inicio Sesión - Tailwind CSS</title>
+  </head>
+  <body
+    class="min-h-screen flex justify-start items-center sm:px-8 px-4 bg-gray-100 flex-col py-4">
+    <img class="md:object-contain" src="Universidad_de_Lima_logo.png" />
+    <div class="sm:my-6 my-4 sm:text-4xl text-xl text-center">
+      <h1 class="sm:text-4xl text-4xl font-bold">
+        Plataforma 2 - Tailwind
+      </h1>
+      <h2>
+        Aplicación de <span class="font-bold text-indigo-700">Bootstrap 5</span> VS
+        <span class="font-bold text-teal-600">Tailwind</span>
+      </h2>
+    </div>
+    <div
+      class="mx-auto form-width w-full bg-white sm:px-16 px-6 border rounded-sm overlow-hidden">
+      <div class="sm:mt-12 mt-8">
+        <h3 class="font-bold text-gray-900 text-2xl sm:mb-6 mb-4 leading-loose">
+          Iniciar Sesión
+        </h3>
+        <form>
+          <div class="sm:mb-5 mb-3 flex flex-col">
+            <div class="flex items-center justify-between sm:mb-2 mb-1">
+              <label for="emailOrPhone" class="font-semibold text-gray-800"
+                >Email o Codigo Ulima</label>
+              <span
+                class="font-semibold text-orange-primary text-sm sm:text-base">
+                ¿Necesita Ayuda?
+              </span>
+            </div>
+            <input
+              type="Enter your email address or college id"
+              class="sm:py-3 py-2 border border-gray-400 rounded"
+              id="emailOrId"/>
+          </div>
+          <div class="sm:mb-5 mb-3 flex flex-col">
+            <label
+              for="password"
+              class="font-semibold sm:mb-2 mb-1 text-gray-800">
+              Contraseña
+            </label>
+            <input
+              type="password"
+              class="sm:py-3 py-2 border rounded border-gray-400"
+              id="password"/>
+          </div>
+          <button
+            type="submit"
+            class="sm:py-3 py-2 block w-full bg-orange-primary text-white rounded-md mb-3 
+                  sm:leading-7 border border-orange-primary outline-none font-semibold">
+            Continuar
+          </button>
+          <div>
+            <p class="text-gray-700 text-sm">
+              Al continuar, acepta nuestras 
+              <strong>Condiciones de Uso</strong> y
+              <strong>Aviso de Privacidad</strong>
+            </p>
+          </div>
+
+          <div class="sm:mt-12 mt-8 sm:mb-10 mb-6">
+            <p class="font-semibold mb-2 text-gray-800">
+              ¿No es alumno?
+            </p>
+            <button
+              type="submit" 
+              class="block w-full border-2 border-gray-800 text-gray-800 rounded-md sm:py-3 py-2 border-black font-semibold sm:leading-7 outline-none">
+              <a href="https://admision.ulima.edu.pe/">Registrate aquí</a>
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="border-t -sm:mx-16 -mx-6">
+        <div
+          class="sm:py-12 py-8 flex justify-between sm:justify-around items-center sm:mx-8 mx-6">
+          <a href="#" class="text-sm font-semibold text-red-secondary"> Condiciones de Uso</a>
+          <a href="#" class="text-sm font-semibold text-red-secondary"> Aviso de Privacidad</a>
+          <a href="#" class="text-sm font-semibold text-red-secondary">Ayuda</a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="sm:mt-10 mt-8 text-center">
+      <p class="text-gray-600 text-sm sm:text-base">
+        <a href="https://www.ulima.edu.pe/" class="text-blue">Universidad de Lima - 2021</a> - Programación Web
+      </p>
+    </footer>
+  </body>
+</html>
